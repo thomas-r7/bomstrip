@@ -1,6 +1,6 @@
 {
     "name": "cli-bomstrip",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Strips BOM (byte order mark) from files encoded as UTF8-BOM, saving them back in plain UTF8 format.",
     "license": "MIT",
     "keywords": [
