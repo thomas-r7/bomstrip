@@ -1,0 +1,30 @@
+{
+    "name": "bomstrip",
+    "version": "0.0.1",
+    "description": "Strips BOM (byte order mark) from files encoded as UTF8-BOM, saving them back in plain UTF8 format.",
+    "license": "MIT",
+    "keywords": [
+        "bom",
+        "utf8"
+    ],
+    "author": {
+        "name": "Thomas Smith",
+        "email": "thomas@red7mobile.com"
+    },
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "bin": {
+        "bomstrip": "./dist/index.js"
+    },
+    "dependencies": {
+        "@types/fs-extra": "^5.0.4",
+        "@types/minimist": "^1.2.0",
+        "fs-extra": "^7.0.0",
+        "minimist": "^1.2.0"
+    },
+    "devDependencies": {
+        "typescript": "~2.9.2"
+    }
+}
